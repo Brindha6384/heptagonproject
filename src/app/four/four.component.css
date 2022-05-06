@@ -1,0 +1,32 @@
+table{
+   
+    height:50px;
+    width: 750px;
+    position: absolute;
+    margin-left: 300px;
+    
+ 
+    text-align: center;
+   
+}
+table tr{
+  
+    height:40px;
+    word-spacing: 2px;
+   
+  
+}
+table th{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+table tr td{
+    font-weight: bold;
+    font-size: 17px;
+    font-family: monospace;
+}
+button{
+    margin-left: 630px;
+    margin-bottom: 50px;
+}

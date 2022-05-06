@@ -1,0 +1,33 @@
+<div class="container1">
+  <header style="background-color: rgb(138, 180, 243);font-size: 28px;font-family: 'Times New Roman', Times, serif;font-weight: bold;height: 50px;text-align: center;padding-top: 10px;">
+    LOG IN</header>
+    <div class="row">
+        <div class="col-md-8" style="margin-left: 70px;margin-top: 20px;color: white;">
+            <div>
+            
+                    <form [formGroup]="todoForm">
+                        <p>
+                            <mat-form-field appearance="outline">
+                              <mat-label>Enter Email-ID</mat-label>
+                              <input id="opp1" style="width:300px;" formControlName="item" matInput placeholder="Enter Your Status">
+                              <mat-icon matSuffix>contact</mat-icon>
+                             
+                            </mat-form-field><br><br>
+
+                            <mat-form-field appearance="outline">
+                              <mat-label>PASSWORD</mat-label>
+                              <input id="opp1" formControlName="item" matInput placeholder="Enter Your Status">
+                              <mat-icon matSuffix></mat-icon>
+                             
+                            </mat-form-field>
+                          </p>
+                          <a [routerLink]="'/home'" ><button mat-raised-button>Log In</button></a>
+                    </form>
+                  
+               
+            </div>
+
+        </div>
+       
+    </div>
+    </div>
